@@ -35,6 +35,6 @@ function draw(){
     background('rgb(153, 152, 152)');
     textSize(12);
     fill("#F90093");
-    textSize(difference);
+    textSize(floor(leftWristX - rightWristX));
     text("Looluwa", noseX, noseY);
 }
